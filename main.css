@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+
+html{
+  background-color: #150949;
+}
+
+body{
+  padding: 0em;
+  margin: 0em;
+  font-family: 'times', serif;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 21px;
+  color: #e1d0d0;
+  background-color: #150949;
+}
+
+h1, h2, h3{
+  font-family: 'times', serif;
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 54px;
+  text-align: left;
+  color: 	#708090;
+  padding: 0em;
+  margin-bottom: 2em;
+
+}
+
+h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 1.5em;
+}
+
+h4{
+  font-weight: bold;
+}
+
+.list{
+  padding: 3em 8em;
+  animation: fadein 2s;
+  position: relative;
+  z-index: 0;
+}
+
+a:link {
+  color: #150949;
+  background-color: #e1e1d0;
+  text-decoration: none;
+  line-height: 21px;
+}
+
+a:visited {
+  color: 	#e1e1d0;
+  background-color: #e1d0d0;
+  text-decoration: none;
+  line-height: 21px;
+}
+
+a:hover {
+  color: #150949;
+  background-color: #e1e1d0;
+  text-decoration: none;
+  line-height: 21px;
+}
+
+.bio{
+  padding: 1.8em 0em 3em 2em;
+  text-align: justify;
+  float: left;
+  width: 40vw;
+  z-index: 99999;
+  position: relative;
+}
+
+.bioTitle{
+  display: none;
+}
+
+.contact{
+  text-align: center;
+  margin-bottom: 3em;
+}
+.contact h3{
+  font-size: 1.8em;
+}
+
+.contact a{
+  text-decoration: underline;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media only screen and (max-device-width: 480px) {
+
+        h1{
+          margin-right: -0.7em;
+          padding-bottom: 0.4em;
+        }
+        h1.name{
+          text-align: center;
+          margin: 2em 0 0 0;
+          padding: 0;
+          font-size: 2em;
+        }
+        .list{
+          padding: 0em 3em;
+        }
+        .bio{
+          padding: 1em 0;
+          float: none;
+          text-align: left;
+          width: 100%;
+          margin: 0 auto;
+        }
+
+        .bioTitle{
+          display: block;
+        }
+    }
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
