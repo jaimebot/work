@@ -5,8 +5,8 @@ color sets the colour of the text on the page.
  */
 
 html, body{
-  background-color: #150949;
-  color: 	#708090;
+  background-color: #2D2E2E;
+  color: 	#DAFEEA;
 }
 
 /*
@@ -14,7 +14,7 @@ h1 is the bold "Your Name" at the top of the page.
  */
 
 h1{
-color: 	#708090;
+color: 	#DAFEEA;
 }
 
 /*
@@ -22,7 +22,7 @@ h3 is used for the subheadings, like "full-length"
  */
 
 h3{
-  color: 	#708090;
+  color: 	#DAFEEA;
 }
 
 /*
@@ -30,7 +30,7 @@ h4 is used for the dates in this template
  */
 
 h4{
-  color: 	#708090;
+  color: 	#DAFEEA;
 }
 
 /*
@@ -38,11 +38,11 @@ This sets the colour of the links on your page
  */
 
 a, a:link {
-  color: 	#708090;
+  color: 	#DAFEEA;
 }
 
 a, a:visited {
-  color: #708090;
+  color: #C0E38B;
 }
 
 /*
@@ -50,7 +50,7 @@ This sets the colour of the link when you hover over it
  */
 
 a:hover {
-  color: #ffffff;
+  color: #2D2E2E;
 }
 
 /*
@@ -58,7 +58,7 @@ This sets the colour of the circle around each of the contact icons
  */
 
 .fab, .fas{
-  background-color: #150949;
+  background-color: #2D2E2E;
 }
 
 /*
@@ -74,7 +74,7 @@ This sets the colour of the circle around the icon when you hover over it
  */
 
 .fab:hover, .fas:hover{
-  background-color: blue;
+  background-color: #454742;
 }
 
 /*
