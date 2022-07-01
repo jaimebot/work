@@ -38,11 +38,11 @@ This sets the colour of the links on your page
  */
 
 a, a:link {
-  color: 	#DAFEEA;
+  color: 	#2D2E2E;
 }
 
 a, a:visited {
-  color: #C0E38B;
+  color: #2D2E2E;
 }
 
 /*
@@ -74,7 +74,7 @@ This sets the colour of the circle around the icon when you hover over it
  */
 
 .fab:hover, .fas:hover{
-  background-color: #454742;
+  background-color: #2D2E2E;
 }
 
 /*
